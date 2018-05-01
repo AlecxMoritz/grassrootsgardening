@@ -1,11 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+  <div id="header" [ngStyle]="{'background' : 'url(../assets/grassrootsHeader.jpg)'}">
+  <h1>{{ title }}</h1>
   <br>
   <h2> {{slogan}} </h2>
   <br>
+  </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +15,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <a class="navbar-brand" href="#">
               <img src="/assets/grass-logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-              Grassroots Gardening!!!
+              Grassroots Gardening
             </a>
         
         <ul class="navbar-nav mr-auto">
