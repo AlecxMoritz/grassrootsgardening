@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { GrassrootsHomeComponent } from './grassroots-home/grassroots-home.component';
+import { GrassrootsProductsComponent } from './grassroots-products/grassroots-products.component';
+import { GrassrootsAboutComponent } from './grassroots-about/grassroots-about.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GrassrootsHomeComponent,
+    GrassrootsProductsComponent,
+    GrassrootsAboutComponent
   ],
   imports: [
     BrowserModule
