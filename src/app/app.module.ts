@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { GrassrootsHomeComponent } from './grassroots-home/grassroots-home.component';
 import { GrassrootsProductsComponent } from './grassroots-products/grassroots-products.component';
 import { GrassrootsAboutComponent } from './grassroots-about/grassroots-about.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { GrassrootsAboutComponent } from './grassroots-about/grassroots-about.co
     GrassrootsAboutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
