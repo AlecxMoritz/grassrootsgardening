@@ -21,21 +21,25 @@
         <ul class="navbar-nav mr-auto">
 
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a routerLink="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            
+            <a routerLink="/about">About</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+            <a routerLink="/products">Products</a>
             </li>
         </ul>
       </div>
     </nav>
 
-    <app-grassroots-about></app-grassroots-about>
+    <!-- <app-grassroots-home></app-grassroots-home> -->
+ 
+    <router-outlet></router-outlet>
+    <!-- <router-outlet></router-outlet> 
     <app-grassroots-products></app-grassroots-products>
-    <app-grassroots-home></app-grassroots-home>
+    <app-grassroots-about></app-grassroots-about> -->
 
     <!--Footer-->
 <footer class="page-footer font-small green pt-0">
