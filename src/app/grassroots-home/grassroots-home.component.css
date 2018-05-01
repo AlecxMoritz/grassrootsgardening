@@ -3,11 +3,11 @@
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: rgb(40,167,69)
+    color: #556D2E;
 }
 
 .jumbotron {
-    background-color: rgb(40,167,69);
+    background-color:#556D2E;
     width: 90%;
     margin: auto;
     margin-top: 2em;
@@ -18,7 +18,7 @@
     padding: 1em;
     width: 85%;
     margin: auto;
-    background-color: rgb(40,167,69);
+    background-color:#556D2E;
     border-radius: 5px;
     color: white;
 }
@@ -30,5 +30,6 @@
 }
 
 .card {
-    padding: 1em
+    padding: 1em;
+    background-color: #556D2E;
 }
