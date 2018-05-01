@@ -6,7 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./grassroots-home.component.css']
 })
 export class GrassrootsHomeComponent implements OnInit {
+  title = 'Grassroots Gardening';
+  slogan ='We sell grass';
+  tagLine = '';
+  panelTitle = `Starting at the roots`;
+  panelText = `You don't want to kill all your dark areas they are very important. Making all those little fluffies that live in the clouds. Very easy to work these to death. We'll put some happy little leaves here and there. The shadows are just like the highlights, but we're going in the opposite direction. There comes a nice little fluffer.`;
 
+  // card vars
+  cardOneTitle = 'Our Products';
+  cardOneText = 'Grassroots Gardening is proud to offer a wide variety of grasses for any project you might have. Our grasses are kept fed and watered and in peak health. Browse our products here and come see us in person!'
   constructor() { }
 
   ngOnInit() {
