@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Grassroots Gardening';
-  slogan = 'We sell grass!'
+  slogan = 'We sell grass'
 }
