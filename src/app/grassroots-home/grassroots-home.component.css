@@ -1,6 +1,26 @@
-.panel {
-    width: 80%;
+.homeTitle {
+    font-size: 4em;
     margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgb(40,167,69)
+}
+
+.jumbotron {
+    background-color: rgb(40,167,69);
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    color: white;
+}
+
+.panel {
+    padding: 1em;
+    width: 85%;
+    margin: auto;
+    background-color: rgb(40,167,69);
+    border-radius: 5px;
+    color: white;
 }
 
 .card-deck {
@@ -8,3 +28,4 @@
     margin: auto;
     margin-bottom: 5em;
 }
+

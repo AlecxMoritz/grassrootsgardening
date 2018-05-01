@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./grassroots-home.component.css']
 })
 export class GrassrootsHomeComponent implements OnInit {
+  
+  
   title = 'Grassroots Gardening';
   slogan ='We sell grass';
   tagLine = '';
@@ -15,6 +17,9 @@ export class GrassrootsHomeComponent implements OnInit {
   // card vars
   cardOneTitle = 'Our Products';
   cardOneText = 'Grassroots Gardening is proud to offer a wide variety of grasses for any project you might have. Our grasses are kept fed and watered and in peak health. Browse our products here and come see us in person!'
+
+  cardTwoTitle = 'Our Services';
+  cardTwoText = `At Grassroots, we don't just want to supply you, we want to help with the upkeep too. Hire us to help mow, weed, trim, fertilize, aerate, or water your lawn. Price packages start at $49.99 with a spring special for $79.99.`;
   constructor() { }
 
   ngOnInit() {
