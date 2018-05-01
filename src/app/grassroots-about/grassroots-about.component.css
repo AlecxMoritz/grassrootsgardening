@@ -4,16 +4,13 @@
 }
 
 h3 {
-    /* color: #444; */
-    color: darkgreen;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #556D2E;
     font-weight: lighter;
 }
 
 p {
-    color: #444;
+    color: #556D2E;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 
@@ -21,14 +18,5 @@ body {
     margin: 2em;
 }
 
-body, input[text], button {
-color: #888;
-font-family: Cambria, Georgia;
-}
-
-/* everywhere else */
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 
