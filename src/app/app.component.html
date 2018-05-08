@@ -1,7 +1,7 @@
 
 <div style="text-align:center">
   <div id="header" [ngStyle]="{'background' : 'url(../assets/grassrootsHeader.jpg)'}">
-  <h1>{{ title }}</h1>
+  <h1 id="grassrootsTitle">{{ title }}</h1>
   <br>
   <h2> {{slogan}} </h2>
   <br>
@@ -21,13 +21,13 @@
         <ul class="navbar-nav mr-auto">
 
           <li class="nav-item active">
-            <a routerLink="home">Home</a>
+              <a class="nav-link" routerLink="home">Home</a>
           </li>
           <li class="nav-item">
-            <a routerLink="/about">About</a>
+              <a class="nav-link" routerLink="/about">About</a>
           </li>
           <li class="nav-item">
-            <a routerLink="/products">Products</a>
+              <a class="nav-link" routerLink="/products">Products</a>
             </li>
         </ul>
       </div>

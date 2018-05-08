@@ -16,7 +16,7 @@
 
 .panel {
     padding: 1em;
-    width: 85%;
+    width:78%;
     margin: auto;
     background-color:#598027;
     border-radius: 5px;
@@ -32,4 +32,13 @@
 .card {
     padding: 1em;
     background-color: #598027;
+}
+
+#carouselWrapper {
+    margin: auto;
+    background-color: black;
+    width: 80%;
+    max-height: 85vh;
+    overflow: hidden;
+    border-radius: 5px;
 }
